@@ -80,7 +80,7 @@ body{
 .welcome{}
 .c_wel{}
 .c_padding{
-	padding-top: 85px;
+	padding-top: 80px 0 100px;
 }
 .c_h1{
 	font-family: var(--lat);
