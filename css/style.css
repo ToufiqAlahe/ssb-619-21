@@ -1,0 +1,123 @@
+/*font link*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*common start*/
+:root{
+	--lat:  'Lato', sans-serif;
+	--rob:  'Roboto', sans-serif;
+
+	--fs:16px;
+	--fwr:400;
+
+	--gray: #8e8e8e;
+	--black: #333333;
+	--white: #ffffff;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:var(--gray);
+}
+/*common end*/
+/*header start*/
+.header{
+	padding: 20px 0;
+	background-color: var(--white);
+}
+.c_nav{}
+.logo{}
+
+.menu{}
+.menu ul li a{
+	font-family: var(--lat);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--gray);
+	padding: 0 15px !important;
+}
+.menu ul li img{
+	padding-left: 15px !important;
+}
+.menu ul li a:hover{
+	color: var(--black);
+}
+/*header end*/
+/*slider start*/
+.slider{}
+.s_text{}
+.s_text h1{
+	font-family: var(--lat);
+	font-size: 60px;
+	font-weight: 700;
+	color: var(--white);
+}
+.s_text p{
+	padding: 45px 0 50px;
+	font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+.s_text button{
+	width: 200px;
+	height: 50px;
+	background-color: var(--white);
+	border: 1px solid gray;
+	font-family: var(--lat);
+	font-size:16px;
+	font-weight: 700;
+	color: var(--black);
+	transition: .33s;
+}
+.s_text button:hover{
+	background-color: var(--black);
+	color: var(--white);
+}
+/*slider end*/
+/*welcome start*/
+.welcome{}
+.c_wel{}
+.c_padding{
+	padding-top: 85px;
+}
+.c_h1{
+	font-family: var(--lat);
+	font-size: 30px;
+	font-weight: 400;
+	color: var(--black);
+}
+.c_title{}
+.c_p{
+	padding-top: 40px;
+}
+.c_para{}
+/*2nd row*/
+.wel_box{
+	margin: 35px 0 20px;
+	padding: 25px 0;
+	border: 1px solid gray;
+}
+.w_img{}
+.w_img img{}
+.c_h2{
+	padding-top: 30px;
+	font-family: var(--lat);
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--black);
+}
+.wel_box p{
+	padding: 40px 0;
+}
+.wel_box a{
+	color: var(--gray);
+	text-decoration: none;
+	transition: .33s;
+}
+.wel_box a:hover{
+	background-color: var(--black);
+	color: var(--white);
+}
+/*welcome end*/
